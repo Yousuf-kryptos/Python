@@ -1,0 +1,23 @@
+[
+    {
+        "Id": "1",
+        "Name": "Yousuf",
+        "Age": "21",
+        "Course": "CSE",
+        "Year": "2021"
+    },
+    {
+        "Id": "2",
+        "Name": "Thameem",
+        "Age": "22",
+        "Course": "IT",
+        "Year": "2021"
+    },
+    {
+        "Id": "3",
+        "Name": "Mohan",
+        "Age": "21",
+        "Course": "CSE",
+        "Year": "2021"
+    }
+]

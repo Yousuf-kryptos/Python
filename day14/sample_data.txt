@@ -1,0 +1,1 @@
+Gensim is a open‑source library in Python designed for efficient text processing, topic modelling and vector‑space modelling in NLP. It is known for its speed and memory efficiency. It also build word embeddings, discover hidden topics and analyze large text corpora with minimal resources.

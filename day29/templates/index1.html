@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+    <h1>Profiles</h1>
+    <a href="/add_data">Add</a>
+    <br>
+    <table>
+            <thead>
+                <tr>Id</tr>
+                <tr>First Name</tr>
+                <tr>Last Name</tr>
+                <th>Age</th>
+            </thead>
+            {% for data in profiles %}
+            <tbody>
+                <td>{{data.id}}</td>
+                <td>{{data.first_name}}</td>
+                <td>{{data.last_name}}</td>
+                <td>{{data.age}}</td>
+                <td><a href="/delete/{{data.id}}" type="button">Delete</a></td>
+            </tbody>
+            {% endfor %}
+    </table>
+</body>
+</html>

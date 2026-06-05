@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff</title>
+</head>
+<body>
+    <h1>My Details</h1>
+    <b>My email</b>:{{current_user.email}}
+    | <b>Role</b> {% for role in current_user.roles %}
+                      {{role.name}}
+                  {% endfor %}<br><br>
+</body>
+</html>

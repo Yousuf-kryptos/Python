@@ -1,0 +1,23 @@
+{% extends "header.html" %}
+
+{% block title %} Page Not Found {% endblock %}
+
+{% block body %}
+<h1>OOps!, Looks like the page doesn't exists anymore</h1>
+<p id="pageInfo">Redirecting to home page after 5 seconds</p>
+<script>
+    var seconds = 5
+    var url = "{{url_for('index')}}";
+
+    function redirect(){
+        if (seconds<=0){
+            window.location = url
+        }else{
+            seconds--;
+            document.getElementById("pageInfo").innerHTML = "Redirecting to home page after "+ seconds +" seconds";
+            setTimeout(redirect,1000);
+        }
+    }
+    window.onload = redirect;
+</script>
+{% endblock %}

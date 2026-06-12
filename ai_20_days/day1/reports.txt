@@ -1,0 +1,5 @@
+math: Average=80.50, Highest=95, Lowest=60
+science: Average=83.00, Highest=96, Lowest=65
+english: Average=83.00, Highest=95, Lowest=65
+history: Average=79.30, Highest=92, Lowest=58
+computer: Average=85.50, Highest=99, Lowest=70
